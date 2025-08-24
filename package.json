@@ -1,0 +1,31 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "GraphQL with Apollo Server and Node.js example",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emisasal/graphql-server-example.git"
+  },
+  "keywords": [
+    "graphql",
+    "apollo-server",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/emisasal/graphql-server-example#readme",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "graphql": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
