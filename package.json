@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
-    "start": "npm run compile && node ./dist/index.js"
+    "start": "npm run compile && node ./dist/index.js",
+    "dev": "tsc --watch",
+    "serve": "node ./dist/index.js",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && npm run compile"
   },
   "repository": {
     "type": "git",
@@ -16,7 +20,7 @@
     "apollo-server",
     "nodejs"
   ],
-  "author": "",
+  "author": "Emiliano Sasal",
   "license": "ISC",
   "homepage": "https://github.com/emisasal/graphql-server-example#readme",
   "type": "module",
